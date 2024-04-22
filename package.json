@@ -1,0 +1,21 @@
+{
+  "name": "simplelog",
+  "productName": "SimpleLog",
+  "version": "1.0.0",
+  "description": "Simple, Lightweight logging system for JavaScript/TypeScript.",
+  "scripts": {
+    "compile": "yarn run prettier && tsc -p src/tsconfig.json",
+    "prettier-check": "prettier --check \"./**/*.{ts,js}\"",
+    "prettier": "prettier . --write"
+  },
+  "repository": "https://github.com/Terabit-Desktop/SimpleLog.git",
+  "author": "ɅLΞX <123724383+ALEXWARELLC@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
