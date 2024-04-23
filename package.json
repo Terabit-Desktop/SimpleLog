@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple, Lightweight logging system for JavaScript/TypeScript.",
   "scripts": {
-    "compile": "yarn run prettier && tsc -p src/tsconfig.json",
+    "compile": "yarn run prettier && tsup",
     "prettier-check": "prettier --check \"./**/*.{ts,js}\"",
     "prettier": "prettier . --write"
   },
