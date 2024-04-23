@@ -2,8 +2,15 @@
   "name": "@terabit-desktop/simplelog",
   "version": "1.0.0",
   "description": "Simple, Lightweight logging system for JavaScript/TypeScript.",
+  "main": "./dist/logger.js",
+  "module": "./dist/logger.mjs",
+  "types": "./dist/logger.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "compile": "yarn run prettier && tsup",
+    "test": "jest",
     "prettier-check": "prettier --check \"./**/*.{ts,js}\"",
     "prettier": "prettier . --write"
   },
@@ -15,7 +22,11 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
     "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
     "typescript": "*"
   },
