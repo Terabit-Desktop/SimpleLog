@@ -16,6 +16,7 @@
   "private": false,
   "devDependencies": {
     "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
     "typescript": "*"
   },
   "dependencies": {}
