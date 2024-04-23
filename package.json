@@ -1,6 +1,5 @@
 {
-  "name": "simplelog",
-  "productName": "SimpleLog",
+  "name": "@terabit-desktop/simplelog",
   "version": "1.0.0",
   "description": "Simple, Lightweight logging system for JavaScript/TypeScript.",
   "scripts": {
@@ -8,14 +7,16 @@
     "prettier-check": "prettier --check \"./**/*.{ts,js}\"",
     "prettier": "prettier . --write"
   },
-  "repository": "https://github.com/Terabit-Desktop/SimpleLog.git",
-  "author": "ɅLΞX <123724383+ALEXWARELLC@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terabit-Desktop/SimpleLog.git"
+  },
+  "author": "cypherproto",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "prettier": "^3.2.5"
-  },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "typescript": "*"
-  }
+  },
+  "dependencies": {}
 }
