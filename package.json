@@ -1,6 +1,6 @@
 {
   "name": "@terabit-desktop/simplelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple, Lightweight logging system for JavaScript/TypeScript.",
   "main": "./dist/logger.js",
   "module": "./dist/logger.mjs",
